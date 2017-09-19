@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "uglify-js-es6": "^2.8.9"
+  }
+}
