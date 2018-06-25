@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "uglify-js-es6": "^2.8.9"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-uglify": "^1.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel shanghaitech_eams.js --presets es2015 --plugins babel-plugin-transform-remove-strict-mode | ./node_modules/.bin/uglifyjs -c -m toplevel -m reserved=['selectNos'] -o shanghaitech_eams.min.js"
   }
 }
