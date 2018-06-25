@@ -1,1 +1,12 @@
+# NodeJS modules
 node_modules
+dest
+package-lock.json
+
+# JetBrains IDEA
+.idea
+
+# Sublime Text
+.sublime-*
+
+*.png
