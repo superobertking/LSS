@@ -1,7 +1,7 @@
 # LSS
 Lesson Selecting Script
 
-Select the courses automatically, use a timer of 2000ms to reduce post rates.
+Select the courses automatically, use a timer of 1500ms to reduce post rates.
 
 ## EAMS @ ShanghaiTech University
 
@@ -26,3 +26,7 @@ A simple javascript program running in the web browser.
 ### Screenshots
 
 <img width="578" alt="shanghaitech_eams" src="https://user-images.githubusercontent.com/8351396/28070339-19a78eaa-667f-11e7-8e13-64989bff69a4.png">
+
+### TODO
+
+- Swap course feature
