@@ -7,6 +7,6 @@
     "uglify-es": "^3.3.9"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel shanghaitech_eams.js --presets es2015 --plugins babel-plugin-transform-remove-strict-mode | ./node_modules/.bin/uglifyjs -c -m toplevel -m reserved=['selectNos'] -o shanghaitech_eams.min.js"
+    "build": "./node_modules/.bin/babel shanghaitech_eams.js --presets es2015 --plugins babel-plugin-transform-remove-strict-mode | ./node_modules/.bin/uglifyjs -c -m toplevel -m reserved=['selectNos','stopLSS'] -o shanghaitech_eams.min.js"
   }
 }

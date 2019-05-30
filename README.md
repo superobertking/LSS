@@ -13,15 +13,19 @@ A simple javascript program running in the web browser.
 
 1. Login to the EAMS (currently only tested for ShanghaiTech).
 
-2. Fill the `selectNos` array with the course numbers you want to select.
+2. Open your browser console. (shortcut e.g. ctrl+shift+i or command+option+i)
+
+3. Copy the (minified) script from [here](https://raw.githubusercontent.com/superobertking/LSS/master/shanghaitech_eams.min.js) to your browser console.
+
+4. Fill the `selectNos` array with the course numbers you want to select.
 
    ```javascript
    var selectNos = ['EE111.04', 'CSKI1002.01', 'CS140.01'];
    ```
 
-3. Copy the script to the browser console.
+5. Press `Enter`(`return`) key, and boom, keep calm and wait.
 
-4. Press `Enter`(`return`) key, and boom, keep calm and wait.
+6. To stop the loop, type `stopLSS()` in the browser console and press `Enter`(`return`).
 
 ### Screenshots
 
@@ -30,3 +34,9 @@ A simple javascript program running in the web browser.
 ### TODO
 
 - Swap course feature
+- Drop course feature
+
+### Update
+
+- 2019-05-30: Add support for English EAMS; add `stopLSS` functionality; add lesson not found warning.
+- 2018-06-25: Use es2015 to support old browsers.

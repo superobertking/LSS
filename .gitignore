@@ -10,3 +10,6 @@ package-lock.json
 .sublime-*
 
 *.png
+
+# macOS
+.DS_Store
